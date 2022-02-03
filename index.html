@@ -1,16 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <!--Normalize: https://necolas.github.io/normalize.css/-->
+        <link
+            href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+            rel="stylesheet"
+        />
+        <!--Mis estilos-->
+        <link rel="stylesheet" href="css/styles.css" />
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <!--
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+            rel="stylesheet"
+        />-->
 
-<head>
-    <title>Francisco Tovar Clorio</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-</head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Francisco Tovar Clorio</title>
+    </head>
 
-<body>
-    <h1>Francisco Tovar Clorio</h1>
-	<h2>Portafolio</h2>
-</body>
-
+    <body>
+        <header class="topheader">
+            <nav class="topnav">
+                <a href="#" class="logo">
+                    <img height="50" src="images/foto.jpg" alt="Mi foto" />
+                    <div>
+                        Francisco Tovar Clorio <br />
+                        JS Developer
+                    </div>
+                </a>
+                <button class="open-menu" aria-label="Abrir menú">
+                    <img src="icons/hamburger-icon.svg" alt="Abrir menú" />
+                </button>
+                <ul class="menu">
+                    <button class="close-menu" aria-label="Cerrar menú">
+                        <img src="icons/close-icon.svg" alt="Cerrar menú" />
+                    </button>
+                    <!--
+                        Menú
+                        Home
+                        Sobre mí
+                        Skill / Services
+                        Proyectos (Port folio)
+                        Contact
+                            GitHub
+                            Linkedin
+                            Red Social (una)
+                            Correo (Form para enviar correo, no el correo directamente)
+                    -->
+                    <li><a href="#about-me">Sobre mí</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <h1>Francisco Tovar Clorio</h1>
+        <footer>
+            <h1>Footer</h1>
+        </footer>
+    </body>
 </html>
